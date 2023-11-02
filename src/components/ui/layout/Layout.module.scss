@@ -1,0 +1,26 @@
+.layout {
+  margin: 0 auto;
+  header {
+    margin-bottom: 15px;
+    nav {
+      padding: 15px 0;
+      gap: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid #333;
+
+      a {
+        padding: 10px;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: #0c7c48;
+        }
+      }
+    }
+  }
+}
